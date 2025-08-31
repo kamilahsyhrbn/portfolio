@@ -24,7 +24,7 @@ export default function Home() {
           </AnimatedShinyText>
         </div>
         <h2 className="text-2xl">
-          Hi, I'm{" "}
+          Hi, I&apos;m{" "}
           <AuroraText className="font-bold">Kamilah Syahrabanu</AuroraText>
         </h2>
         <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">

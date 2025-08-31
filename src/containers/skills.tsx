@@ -1,5 +1,4 @@
 "use client";
-import { AuroraText } from "@/components/magicui/aurora-text-props";
 import { Highlighter } from "@/components/magicui/highlighter";
 import { TextAnimate } from "@/components/magicui/text-animate";
 import { skills } from "@/data/skills";

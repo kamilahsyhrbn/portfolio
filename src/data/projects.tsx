@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const content = [
   {
     title: "Zahra Cake & Cookies",
@@ -6,7 +8,7 @@ export const content = [
       "Zahra Cake & Cookies is an online bakery website where customers can easily browse cakes and cookies, calculate shipping costs through the RajaOngkir API, and pay securely with Midtrans. The site also lets customers leave reviews on menu items, making the shopping experience more interactive and trustworthy.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <img
+        <Image
           src="/projects/project1.png"
           width={300}
           height={300}
