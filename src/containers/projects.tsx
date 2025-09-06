@@ -26,13 +26,13 @@ export default function Projects() {
       <StickyScroll content={content} />
 
       <div className="flex justify-center">
-        <ShimmerButton>
-          <Link
-            href="https://github.com/kamilahsyhrbn"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex items-center justify-center"
-          >
+        <Link
+          href="https://github.com/kamilahsyhrbn"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center justify-center"
+        >
+          <ShimmerButton>
             <motion.span
               initial={{ opacity: 0, y: 5 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -53,8 +53,8 @@ export default function Projects() {
               />
               <span className="relative">See More on GitHub</span>
             </motion.span>
-          </Link>
-        </ShimmerButton>
+          </ShimmerButton>
+        </Link>
       </div>
     </section>
   );
